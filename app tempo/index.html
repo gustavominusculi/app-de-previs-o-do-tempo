@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="png" href="04n.png">
+    
+    <title>Previsao do tempo</title>
+</head>
+
+<body>
+    <div class="box-big">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="button-search" onclick="clicarNobotao()">
+            <img class="img-search" alt="Buscar" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <div class="box-medio">
+            <h2 class="cidade">Tempo em</h2>
+
+            <p class="temp">Temperatura °C</p>
+            <div class="box-menor">
+                <img class="img-previsao" alt="incone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="text-previsao">ceú</p>
+                <p class="vento">Velocidade Do Vento</p>
+            </div>
+
+
+            <p class="umidade">Humidade %</p>
+        </div>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+</html>
